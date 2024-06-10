@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+body{
+  background-color: #F5F5F5;
+}
+:root{
+  --primary-blue: rgb(3, 3, 77);
+  --dark-primary-blue: rgb(4, 4, 53);
+  --white: #FFFFFF;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
+button{
+  padding: 10px;
+  outline: none;
+  border: 2px solid var(--white);
+  background: var(--white);
+  color: #000;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: inherit;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 200ms;
+}
+button:hover{
+  background: none;
+  color: var(--white);
+}
+
+button:hover *{
+  margin-left: 10px;
+}
+button >*{
+  margin-left: 5px;
+  transition: 200ms;
+}
+.container{
+  padding: 0 5%;
+  width: 90%;
+  margin: 80px auto;
+}

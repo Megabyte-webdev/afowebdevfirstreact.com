@@ -1,0 +1,110 @@
+.testimonials{
+    padding: 10px;
+    margin: 80px auto;
+    position: relative;
+   
+}
+.controls{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+}
+.controls >*{
+    cursor: pointer;
+    font-size: 1.5rem;
+    
+    color: var(--primary-blue);
+}
+.slider .dots{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+}
+.slider .dots .dot{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: none;
+    border: 2px solid var(--dark-primary-blue);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.slider .dots .dot:hover,
+.slider .dots .dot.active{
+    background-color: var(--dark-primary-blue);
+
+}
+.slider{
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto 50px auto;
+    padding: 30px 0;
+}
+.slider ul{
+    width: 200%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: 0.5s;
+}
+.slider ul li{
+    width: 23%;
+    list-style-type: none;
+    padding: 20px;
+    min-height: 180px;
+    margin: 5px;
+    box-shadow: 0 0 4px #676767;
+    border-radius: 10px;
+}
+.slider .profile{
+    display: flex;
+    margin: 10px;
+}
+.slider .profile article{
+    padding: 2px 10px;
+}
+.profile article h3{
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--dark-primary-blue);
+}
+.profile article p{
+    color: grey;
+    font-size: 12px;
+    margin: 10px 0;
+}
+.slider ul li img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid var(--primary-blue);
+}
+.slider li p{
+    line-height: 1.4;
+}
+@media screen and (max-width: 700px) {
+    .slider ul li{
+        width: 50%;
+        margin: 5px 20px;
+    }
+    .slider ul{
+        width: 400%;
+    }
+}

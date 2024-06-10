@@ -1,0 +1,12 @@
+.title{
+    margin: 80px auto;
+    max-width: 500px;
+    width: 80%;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--dark-primary-blue);
+    font-size: calc(1vmax + 10px);
+}
+.title h5{
+    text-transform: uppercase;
+}

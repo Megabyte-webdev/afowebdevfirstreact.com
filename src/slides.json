@@ -1,0 +1,24 @@
+
+[
+    {
+        "name": "Williams Shakesphere",
+        "job": "Writer",
+        "content": "The most intersting and amazing thing about science is that it never stop growing and knowledge does not stop.",
+        "image": "../assets/prm-1.jpg"
+    },{
+        "name": "Albert Einstein",
+        "job": "Scientist",
+        "content": "The most intersting and amazing thing about science is that it never stop growing and knowledge does not stop.",
+        "image": "../assets/prm-2.jpg"
+    },{
+        "name": "John Dalton",
+        "job": "Scientist",
+        "content": "The most intersting and amazing thing about science is that it never stop growing and knowledge does not stop.",
+        "image": "../assets/prm-3.jpg"
+    },{
+        "name": "Lord Luggard",
+        "job": "Plitician",
+        "content": "The most intersting and amazing thing about science is that it never stop growing and knowledge does not stop.",
+        "image": "../assets/prm-1.jpg"
+    }
+]
